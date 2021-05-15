@@ -19,6 +19,30 @@
   		<scope>provided</scope>
   	</dependency>
   </dependencies>
+  <repositories>
+    <repository>
+  <id>kalyan25</id>
+  <url>https://pkgs.dev.azure.com/kalyan25/_packaging/kalyan25/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+  </repositories>
+  <distributionManagement>
+    <repository>
+  <id>kalyan25</id>
+  <url>https://pkgs.dev.azure.com/kalyan25/_packaging/kalyan25/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
