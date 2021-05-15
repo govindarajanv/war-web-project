@@ -21,8 +21,8 @@
   </dependencies>
   <repositories>
     <repository>
-  <id>kalyan25</id>
-  <url>https://pkgs.dev.azure.com/kalyan25/_packaging/kalyan25/maven/v1</url>
+  <id>airbus-maven</id>
+  <url>https://pkgs.dev.azure.com/kalyan25/_packaging/airbus-maven/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -33,8 +33,8 @@
   </repositories>
   <distributionManagement>
     <repository>
-  <id>kalyan25</id>
-  <url>https://pkgs.dev.azure.com/kalyan25/_packaging/kalyan25/maven/v1</url>
+  <id>airbus-maven</id>
+  <url>https://pkgs.dev.azure.com/kalyan25/_packaging/airbus-maven/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
