@@ -26,7 +26,8 @@ stages:
   jobs:
   - job: MavenPackageAndPublishArtifacts
     displayName: Maven Package and Publish Artifacts
-    pool: Default
+    pool: 
+      vmImage: ${{parameters.vmImage}}
 
     steps:
     - task: Maven@3
@@ -53,7 +54,7 @@ stages:
     displayName: Deploy Linux Web App
     environment: $(environmentName)
     pool:
-      vmImage: $(vmImageName)
+      vmImage: ${{parameters.vmImage}}
     strategy:
       runOnce:
         deploy:
