@@ -8,9 +8,6 @@ trigger:
 
 variables:
 
-  # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '7b4caa42-60ff-4db6-a0ef-6664189ad5c3'
-
   # Web app name
   webAppName: 'azurewebtestd'
 
